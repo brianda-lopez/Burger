@@ -17,7 +17,7 @@ router.put("/burgers/update", function (req, res) {
     }) 
 }); // end of router.put
 
-router.post("/burgers/create", function(req, res) {
+router.patch("/burgers/create", function(req, res) {
     burger.create(req.body.burger_name, function(result) {
         res.redirect("/");
     })
