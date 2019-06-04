@@ -7,7 +7,7 @@ var mysql = require("mysql");
         host: "localhost",
         user: "b5305b5d383537",
         password: "1a38328e",
-        database: "burgers_db"
+        database: "heroku_cdc066563e33956"
     });
 
 connection.connect(function(err) {
