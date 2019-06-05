@@ -1,6 +1,7 @@
 // this is all about mysql connection
 
 var mysql = require("mysql");
+var PORT = process.env.PORT || 8081;
 var connection;
 
    if (process.env.JAWSDB_URL){
